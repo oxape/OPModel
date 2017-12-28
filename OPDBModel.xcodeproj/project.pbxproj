@@ -14,6 +14,16 @@
 		2B6FE5401FF4827B00436B5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6FE53E1FF4827B00436B5C /* LaunchScreen.storyboard */; };
 		2B6FE5431FF4827B00436B5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FE5421FF4827B00436B5C /* main.m */; };
 		2B6FE54D1FF4827B00436B5C /* OPDBModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FE54C1FF4827B00436B5C /* OPDBModelTests.m */; };
+		2B6FE5931FF4859300436B5C /* OPDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FE5801FF4859300436B5C /* OPDBManager.m */; };
+		2B6FE5941FF4859300436B5C /* OPSqlGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FE5811FF4859300436B5C /* OPSqlGenerator.m */; };
+		2B6FE5951FF4859300436B5C /* NSObject+OPDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FE5821FF4859300436B5C /* NSObject+OPDBModel.m */; };
+		2B6FE5961FF4859300436B5C /* OPPropertyType+Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FE5831FF4859300436B5C /* OPPropertyType+Database.m */; };
+		2B6FE5971FF4859300436B5C /* OPSql.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FE5851FF4859300436B5C /* OPSql.m */; };
+		2B6FE5981FF4859300436B5C /* OPFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FE5891FF4859300436B5C /* OPFoundation.m */; };
+		2B6FE5991FF4859300436B5C /* NSObject+OPProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FE58B1FF4859300436B5C /* NSObject+OPProperty.m */; };
+		2B6FE59A1FF4859300436B5C /* OPProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FE58D1FF4859300436B5C /* OPProperty.m */; };
+		2B6FE59B1FF4859300436B5C /* NSObject+OPClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FE5911FF4859300436B5C /* NSObject+OPClass.m */; };
+		2B6FE59C1FF4859300436B5C /* OPPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FE5921FF4859300436B5C /* OPPropertyType.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,28 @@
 		2B6FE5481FF4827B00436B5C /* OPDBModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPDBModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6FE54C1FF4827B00436B5C /* OPDBModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPDBModelTests.m; sourceTree = "<group>"; };
 		2B6FE54E1FF4827B00436B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B6FE57C1FF4859300436B5C /* OPPropertyType+Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OPPropertyType+Database.h"; sourceTree = "<group>"; };
+		2B6FE57D1FF4859300436B5C /* NSObject+OPDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OPDBModel.h"; sourceTree = "<group>"; };
+		2B6FE57E1FF4859300436B5C /* OPSqlGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPSqlGenerator.h; sourceTree = "<group>"; };
+		2B6FE57F1FF4859300436B5C /* OPSql.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPSql.h; sourceTree = "<group>"; };
+		2B6FE5801FF4859300436B5C /* OPDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPDBManager.m; sourceTree = "<group>"; };
+		2B6FE5811FF4859300436B5C /* OPSqlGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPSqlGenerator.m; sourceTree = "<group>"; };
+		2B6FE5821FF4859300436B5C /* NSObject+OPDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OPDBModel.m"; sourceTree = "<group>"; };
+		2B6FE5831FF4859300436B5C /* OPPropertyType+Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OPPropertyType+Database.m"; sourceTree = "<group>"; };
+		2B6FE5841FF4859300436B5C /* OPDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPDBManager.h; sourceTree = "<group>"; };
+		2B6FE5851FF4859300436B5C /* OPSql.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPSql.m; sourceTree = "<group>"; };
+		2B6FE5861FF4859300436B5C /* OPDBCampat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPDBCampat.h; sourceTree = "<group>"; };
+		2B6FE5881FF4859300436B5C /* OPProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPProperty.h; sourceTree = "<group>"; };
+		2B6FE5891FF4859300436B5C /* OPFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPFoundation.m; sourceTree = "<group>"; };
+		2B6FE58A1FF4859300436B5C /* NSObject+OPClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OPClass.h"; sourceTree = "<group>"; };
+		2B6FE58B1FF4859300436B5C /* NSObject+OPProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OPProperty.m"; sourceTree = "<group>"; };
+		2B6FE58C1FF4859300436B5C /* OPPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPPropertyType.h; sourceTree = "<group>"; };
+		2B6FE58D1FF4859300436B5C /* OPProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPProperty.m; sourceTree = "<group>"; };
+		2B6FE58E1FF4859300436B5C /* OPReflect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPReflect.h; sourceTree = "<group>"; };
+		2B6FE58F1FF4859300436B5C /* OPFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPFoundation.h; sourceTree = "<group>"; };
+		2B6FE5901FF4859300436B5C /* NSObject+OPProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OPProperty.h"; sourceTree = "<group>"; };
+		2B6FE5911FF4859300436B5C /* NSObject+OPClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OPClass.m"; sourceTree = "<group>"; };
+		2B6FE5921FF4859300436B5C /* OPPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPPropertyType.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +113,9 @@
 		2B6FE5321FF4827B00436B5C /* OPDBModel */ = {
 			isa = PBXGroup;
 			children = (
-				2B6FE5331FF4827B00436B5C /* AppDelegate.h */,
-				2B6FE5341FF4827B00436B5C /* AppDelegate.m */,
-				2B6FE5361FF4827B00436B5C /* ViewController.h */,
-				2B6FE5371FF4827B00436B5C /* ViewController.m */,
+				2B6FE59E1FF485AD00436B5C /* ViewController */,
+				2B6FE59D1FF4859E00436B5C /* Application */,
+				2B6FE57A1FF4857700436B5C /* Source */,
 				2B6FE5391FF4827B00436B5C /* Main.storyboard */,
 				2B6FE53C1FF4827B00436B5C /* Assets.xcassets */,
 				2B6FE53E1FF4827B00436B5C /* LaunchScreen.storyboard */,
@@ -101,6 +132,70 @@
 				2B6FE54E1FF4827B00436B5C /* Info.plist */,
 			);
 			path = OPDBModelTests;
+			sourceTree = "<group>";
+		};
+		2B6FE57A1FF4857700436B5C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2B6FE5861FF4859300436B5C /* OPDBCampat.h */,
+				2B6FE5871FF4859300436B5C /* Reflect */,
+				2B6FE57B1FF4859300436B5C /* Database */,
+			);
+			name = Source;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		2B6FE57B1FF4859300436B5C /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				2B6FE57C1FF4859300436B5C /* OPPropertyType+Database.h */,
+				2B6FE57D1FF4859300436B5C /* NSObject+OPDBModel.h */,
+				2B6FE57E1FF4859300436B5C /* OPSqlGenerator.h */,
+				2B6FE57F1FF4859300436B5C /* OPSql.h */,
+				2B6FE5801FF4859300436B5C /* OPDBManager.m */,
+				2B6FE5811FF4859300436B5C /* OPSqlGenerator.m */,
+				2B6FE5821FF4859300436B5C /* NSObject+OPDBModel.m */,
+				2B6FE5831FF4859300436B5C /* OPPropertyType+Database.m */,
+				2B6FE5841FF4859300436B5C /* OPDBManager.h */,
+				2B6FE5851FF4859300436B5C /* OPSql.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		2B6FE5871FF4859300436B5C /* Reflect */ = {
+			isa = PBXGroup;
+			children = (
+				2B6FE5881FF4859300436B5C /* OPProperty.h */,
+				2B6FE5891FF4859300436B5C /* OPFoundation.m */,
+				2B6FE58A1FF4859300436B5C /* NSObject+OPClass.h */,
+				2B6FE58B1FF4859300436B5C /* NSObject+OPProperty.m */,
+				2B6FE58C1FF4859300436B5C /* OPPropertyType.h */,
+				2B6FE58D1FF4859300436B5C /* OPProperty.m */,
+				2B6FE58E1FF4859300436B5C /* OPReflect.h */,
+				2B6FE58F1FF4859300436B5C /* OPFoundation.h */,
+				2B6FE5901FF4859300436B5C /* NSObject+OPProperty.h */,
+				2B6FE5911FF4859300436B5C /* NSObject+OPClass.m */,
+				2B6FE5921FF4859300436B5C /* OPPropertyType.m */,
+			);
+			path = Reflect;
+			sourceTree = "<group>";
+		};
+		2B6FE59D1FF4859E00436B5C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2B6FE5331FF4827B00436B5C /* AppDelegate.h */,
+				2B6FE5341FF4827B00436B5C /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2B6FE59E1FF485AD00436B5C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2B6FE5361FF4827B00436B5C /* ViewController.h */,
+				2B6FE5371FF4827B00436B5C /* ViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,9 +300,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B6FE5951FF4859300436B5C /* NSObject+OPDBModel.m in Sources */,
+				2B6FE5971FF4859300436B5C /* OPSql.m in Sources */,
+				2B6FE5931FF4859300436B5C /* OPDBManager.m in Sources */,
 				2B6FE5381FF4827B00436B5C /* ViewController.m in Sources */,
+				2B6FE5961FF4859300436B5C /* OPPropertyType+Database.m in Sources */,
+				2B6FE59B1FF4859300436B5C /* NSObject+OPClass.m in Sources */,
+				2B6FE5991FF4859300436B5C /* NSObject+OPProperty.m in Sources */,
+				2B6FE5981FF4859300436B5C /* OPFoundation.m in Sources */,
+				2B6FE59C1FF4859300436B5C /* OPPropertyType.m in Sources */,
 				2B6FE5431FF4827B00436B5C /* main.m in Sources */,
 				2B6FE5351FF4827B00436B5C /* AppDelegate.m in Sources */,
+				2B6FE5941FF4859300436B5C /* OPSqlGenerator.m in Sources */,
+				2B6FE59A1FF4859300436B5C /* OPProperty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MBCXRJ4S3;
 				INFOPLIST_FILE = OPDBModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oxape.example.OPDBModel;
@@ -371,6 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MBCXRJ4S3;
 				INFOPLIST_FILE = OPDBModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oxape.example.OPDBModel;
